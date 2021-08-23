@@ -44,7 +44,7 @@ html {
  }
 
  .outer-box {
-     height: 100vh;
+     /* height: 100vh; */
      display: flex;
      justify-content: center;
      vertical-align: middle;
@@ -55,11 +55,47 @@ html {
      width: 100%;
      justify-content: space-around;
      height: 10vh;
-     background-color: white;
+     background-color:#BDA37D;
+     vertical-align: middle;
+     align-items: center;
+     border-radius: 30px;
  }
 
  .content-box {
      margin-top: 50px;
      flex:1;
-     background-color: blue;
+     background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+ }
+
+ .tab {
+    display: flex;
+    vertical-align: middle;
+
+ }
+
+.title {
+    justify-content: center;
+    display: flex;
+}
+
+ .left-content-div {
+     width: 50%
+ }
+
+ .right-content-div {
+     width: 50%;
+     padding: 10px;
+     text-align:center;
+ }
+
+ .sub-content {
+     display: flex;
+ }
+
+ .logo-img {
+    border-radius: 30px;
+
  }
