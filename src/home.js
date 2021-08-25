@@ -43,6 +43,30 @@ function home() {
     // content.appendChild(outerBox);
     outerBox.appendChild(mainBox)
     mainBox.append(navBox,contentBox)
+    navBox.append(tab1,tab2,tab3)
+    contentBox.append(title)
+    title.append(courseName)
+    contentBox.append(subContent)
+    subContent.append(leftContentDiv)
+    leftContentDiv.append(logoImg)
+    subContent.append(rightContentDiv)
+    rightContentDiv.append(titleText)
+    rightContentDiv.append(copyText)
+
+
+    //add text
+    tab1.innerHTML = 'Home'
+    tab2.innerHTML = 'Menu'
+    tab3.innerHTML = 'Contact'
+    courseName.innerHTML = 'The Royal Course'
+    titleText.innerHTML = 'About'
+    copyText.innerHTML = `The Royal Course was created in 2001. It was designed to be a world class golf experience
+    and michellin-stared restaurant. Created by world renowned architect Rex Gable, and
+    managed by industry leader Allan Goodbar, the Royal Club is sure to meet your
+    expectations.`
+
+    //add image
+    logoImg.src = '../src/assets/logo.png'
     
     return outerBox
 }
