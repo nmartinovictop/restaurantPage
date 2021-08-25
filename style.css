@@ -44,6 +44,10 @@ html {
 
  }
 
+ .tab:hover {
+     color: blue;
+ }
+
  .outer-box {
      /* height: 100vh; */
      display: flex;
@@ -100,3 +104,39 @@ html {
     border-radius: 30px;
 
  }
+
+
+ /* menu section */
+ .content-box-menu {
+     display: flex;
+     background-color:white;
+     border-radius: 30px;
+     margin-top: 50px;
+     flex-direction: column;
+
+ }
+
+ .menu-row {
+     display:flex
+ }
+
+ .menu-intro {
+     padding: 25px;
+     text-align: center;
+ }
+
+ .item {
+     display: flex;
+ }
+
+ .item > img {
+     object-fit: contain;
+     border-radius: 30px;
+
+ }
+
+ .item > * {
+     padding: 25px;
+     flex:1
+ } 
+
