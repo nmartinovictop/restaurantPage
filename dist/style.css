@@ -113,11 +113,15 @@ html {
      border-radius: 30px;
      margin-top: 50px;
      flex-direction: column;
-
+    /* height: 960px; */
  }
 
+
+
+
  .menu-row {
-     display:flex
+     display: flex;
+     flex-wrap: wrap;
  }
 
  .menu-intro {
@@ -127,16 +131,34 @@ html {
 
  .item {
      display: flex;
+     flex: 1 1 0;
+     width: calc(50% - 20px);
+     padding: 10px;
  }
 
  .item > img {
-     object-fit: contain;
+     /* object-fit: contain; */
      border-radius: 30px;
+     object-fit: cover;
+     flex: 1 1 0;
+     height: 158px
 
  }
 
  .item > * {
-     padding: 25px;
-     flex:1
+     /* padding: 25px; */
+     min-width: 0;
+     /* flex:1; */
+    
  } 
 
+ p {
+     flex: 1 1 0;
+     text-align: center;
+ }
+
+ .food-items {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
