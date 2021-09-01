@@ -1,3 +1,9 @@
+import Beer from './assets/beer.jpg'
+import Hamburger from './assets/hamburger.jpg'
+import CaesarSalad from './assets/caesar_salad.jpg'
+import Lemonade from './assets/lemonade.jpg'
+import Pizza from './assets/pizza.jpg'
+import Sandwich from './assets/sandwich.jpg'
 
 
 function menu() {
@@ -61,8 +67,8 @@ function menu() {
     item1.classList.add('item1','item')
     menuRow1.appendChild(item1)
 //                                 <img src="../src/assets/hamburger.jpg" alt="">
-    const hamburgerPic = document.createElement('img')
-    hamburgerPic.src = '../src/assets/hamburger.jpg'
+    const hamburgerPic = new Image()
+    hamburgerPic.src = Hamburger
     item1.appendChild(hamburgerPic)
 
 //                                 <p>This hamburger is completely farm to table, and rivals Wagyu beef in it's taste.
@@ -79,8 +85,8 @@ function menu() {
     item2.classList.add('item2','item')
     menuRow1.appendChild(item2)
 //                                 <img src="../src/assets/caesar_salad.jpg" alt="">
-    const saladImg = document.createElement('img')
-    saladImg.src = `../src/assets/caesar_salad.jpg`
+    const saladImg = new Image()
+    saladImg.src = CaesarSalad
     item2.appendChild(saladImg)
 
 //                                 <p>This salad is among the best in the world. Fresh caesar salad with a creamy house
@@ -102,8 +108,8 @@ function menu() {
     item3.classList.add('item3','item')
     menuRow2.appendChild(item3)
 //                                 <img src="../src/assets/sandwich.jpg" alt="">
-    const sandwichImg = document.createElement('img')
-    sandwichImg.src = '../src/assets/sandwich.jpg'
+    const sandwichImg = new Image()
+    sandwichImg.src = Sandwich
     item3.appendChild(sandwichImg)
 //                                 <p>The best club sandwich in the country. Period.
 //                                     Served
@@ -120,7 +126,7 @@ function menu() {
     menuRow2.appendChild(item4)
 //                                 <img src="../src/assets/pizza.jpg" alt="">
     const pizzaImg = document.createElement('img')
-    pizzaImg.src = '../src/assets/pizza.jpg'
+    pizzaImg.src = Pizza
     item4.append(pizzaImg)
 //                                 <p>This hamburger is completely farm to table, and rivals Wagyu beef in it's taste.
 //                                     Served
@@ -142,7 +148,7 @@ function menu() {
     menuRow3.appendChild(item5)
 //                                 <img src="../src/assets/lemonade.jpg" alt="">
     const lemonadeImg = document.createElement('img')
-    lemonadeImg.src = `../src/assets/lemonade.jpg`
+    lemonadeImg.src = Lemonade
     item5.appendChild(lemonadeImg)
 //                                 <p>Delicious lemonade made on site<br>$2</p>
     const lemonadeText = document.createElement('p')
@@ -154,8 +160,8 @@ function menu() {
     item6.classList.add('item6','item')
     menuRow3.appendChild(item6)
 //                                 <img src="../src/assets/beer.jpg" alt="">
-    const beerImg = document.createElement('img')
-    beerImg.src = '../src/assets/beer.jpg'
+    const beerImg = new Image()
+    beerImg.src = Beer
     item6.appendChild(beerImg)
 //                                 <p>Hard to beat a cold beer on a warm day!<br>$5</p>
     const beerText = document.createElement('p')

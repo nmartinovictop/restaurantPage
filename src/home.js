@@ -1,4 +1,4 @@
-
+import Logo from '../src/assets/logo.png'
 
 function home() {
 
@@ -66,7 +66,7 @@ function home() {
     expectations.`
 
     //add image
-    logoImg.src = '../src/assets/logo.png'
+    logoImg.src = Logo
     
     return outerBox
 }
