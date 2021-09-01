@@ -185,4 +185,10 @@ html {
 .content-box-contact > form > div {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.content-box-contact > form > .button{
+    padding: 10px;
+    justify-content: center;
 }
