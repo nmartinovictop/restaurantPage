@@ -2,8 +2,7 @@ import { home } from './home.js'
 import { menu } from './menu.js'
 import { contact } from './contact.js'
 console.log('webpack is working')
-import './style.css';
-import Background from './assets/background.jpg'
+
 
 
 const content = document.querySelector('.content')
