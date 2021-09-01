@@ -2,6 +2,8 @@ import { home } from './home.js'
 import { menu } from './menu.js'
 import { contact } from './contact.js'
 console.log('webpack is working')
+import './style.css';
+
 
 const content = document.querySelector('.content')
 
