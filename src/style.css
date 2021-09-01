@@ -1,5 +1,7 @@
 html {
-    background-image: url("../src/assets/background.jpg");
+    background-image: url("./assets/background.jpg");
+    /* background-image: url('./icon.png'); */
+
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
